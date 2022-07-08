@@ -9,3 +9,4 @@ class Config(object):
             or 'sqlite:///' + os.path.join(basedir, 'app.db') + "?check_same_thread=False"
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    POSTS_PER_PAGE = 3
